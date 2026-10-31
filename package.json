@@ -1,0 +1,23 @@
+{
+  "name": "brandscope-ai-agent",
+  "version": "1.0.0",
+  "description": "Autonomous Brand Name Availability Checker across Domains (DoH + RDAP), Social/Dev Handles, App Stores, and Public Trademarks — built for NEAR AI Agent Market.",
+  "type": "module",
+  "bin": {
+    "brandscope": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/checker.test.mjs",
+    "check": "node src/cli.mjs",
+    "worker": "node src/near-worker.mjs"
+  },
+  "keywords": [
+    "brand-checker",
+    "domain-availability",
+    "rdap",
+    "trademark-screening",
+    "near-ai-agent",
+    "mcp"
+  ],
+  "license": "MIT"
+}
